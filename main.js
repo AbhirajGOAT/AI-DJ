@@ -57,7 +57,7 @@ function draw() {
     if (leftWrist_Score>0.2)
     {
 
-    circle(leftWristX,leftWristY,20);
+    circle(leftWrist_x,leftWrist_y,20);
 	InNumberleftWristY = Number(leftWristY);
 	remove_decimals = floor(InNumberleftWristY);
     volume = remove_decimals/500;
